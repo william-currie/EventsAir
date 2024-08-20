@@ -5,8 +5,20 @@
     AGENDA TABLE
     ****************************** */
 
-th{display: none;
+th {
+display: none;
 }
+
+.ea-data-Agenda .nav-item a {
+  color: #000 !important;
+  background-color: aliceblue;
+  font-weight: bold;
+
+.ea-data-Agenda .nav-item a.active {
+  color: white !important;
+  font-size: 1.2rem;
+  background-color: #062e4d;
+  font-weight: bold;
 
     .ea-data-Agenda .table-bordered {
       /* box-shadow:0 4px 24px rgba(0,0,0,0.1); */

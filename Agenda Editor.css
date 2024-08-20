@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
  
 <style>
 /* ******************************
@@ -11,14 +11,14 @@ display: none;
 
 .ea-data-Agenda .nav-item a {
   color: #000 !important;
-  background-color: aliceblue;
-  font-weight: bold;
+  background-color: aliceblue !important;
+  font-weight: bold !important;
 
 .ea-data-Agenda .nav-item a.active {
   color: white !important;
   font-size: 1.2rem;
-  background-color: #062e4d;
-  font-weight: bold;
+  background-color: #062e4d !important;
+  font-weight: bold !important;
 
     .ea-data-Agenda .table-bordered {
       /* box-shadow:0 4px 24px rgba(0,0,0,0.1); */

@@ -1,0 +1,95 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ 
+<style>
+/* ******************************
+    AGENDA TABLE
+    ****************************** */
+
+th{display: none;
+}
+
+    .ea-data-Agenda .table-bordered {
+      /* box-shadow:0 4px 24px rgba(0,0,0,0.1); */
+        border:none !important;
+    }
+
+    /* Hide empty header row */
+    .ea-data-Agenda th {display:none}
+    /* Left-align all cell text */
+    .ea-data-Agenda td {text-align:left !Important}
+ 
+    
+    /* Lighten time column to keep emphasis on sessions */
+    .ea-data-Agenda td:nth-child(1) {/* opacity:0.5;*/ border-bottom:none !important; padding-bottom:4px}
+    .ea-data-Agenda .phone td:nth-child(2) {border-top:none !important; /* padding-top:0 */}
+
+    /* Agenda column styling */
+    .ea-data-Agenda th,
+    .ea-data-Agenda td{
+        text-align:left !important;
+     /*   background:none !important;
+        color:#000 !important; */
+    }
+    .ea-data-Agenda td {border-left:none; border-right:none}
+
+    /* Full-width agenda columns on mobile */
+    .ea-data-Agenda .phone th,
+    .ea-data-Agenda .phone td{
+        width: 100% !important;
+        float:left;
+        clear:left;
+    }
+ 
+ 
+        /* Shrink time column above mobile */
+        .ea-data-Agenda .desktop th:nth-child(1),
+        .ea-data-Agenda .desktop td:nth-child(1),
+        .ea-data-Agenda .tablet th:nth-child(1),
+        .ea-data-Agenda .tablet td:nth-child(1) {
+            width: 25% !important;
+            min-width:200px !important;
+            text-align:right !important
+        }
+
+
+
+ 
+        /* Hide session descriptions */
+        .ea-data-Agenda td > div.link {
+            display: inline-block;
+            height: 1.2em;
+            overflow: hidden;
+            text-decoration: none;
+    }
+      .ea-data-Agenda td > div.link:hover {
+          /* color:#0af; */
+          text-decoration:underline;
+    }
+         .ea-data-Agenda td > div.link:active {
+          /* color:#06c; */
+          opacity:0.5;
+    }
+
+
+    /* ******************************
+    SESSION INFO POPOVER MODALS
+    ****************************** */
+    .modal-dialog {
+        width:90%; 
+        margin:5% auto 0 auto;
+        max-width:600px;
+    }
+    .modal-content {padding:16px; border-radius:16px; box-shadow:0 4px 48px rgba(0,0,0,0.66)}
+    /* Spread out time/date/location lines */
+    .modal-body .agenda-details-section1 div +div {margin-top:8px}
+    h3.modal-title {line-height:1.2em}
+    /* Make smaller than modal title */
+    .modal-body h3 {font-size:1.33em;}
+ 
+ 
+/* Prevent headline from pushing CTA out of hero on mob */
+    #hero h1 {font-size:3em; line-height:1.1em}
+    @media screen and (min-width:600px){
+        #hero h1 {font-size:5.5em;}
+    }
+</style>
